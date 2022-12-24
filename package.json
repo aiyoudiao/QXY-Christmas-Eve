@@ -1,0 +1,28 @@
+{
+  "name": "qxy-christmas-eve",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Play with a crystal ball on Christmas Eve. 整一个平安夜的水晶球玩玩。",
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/aiyoudiao/QXY-Christmas-Eve/issues"
+  },
+  "homepage": "https://aiyoudiao.github.io/QXY-Christmas-Eve",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aiyoudiao/QXY-Christmas-Eve.git"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "vite": "^3.1.0"
+  },
+  "dependencies": {}
+}
